@@ -39,7 +39,7 @@ class MongoTarget extends Target
 			$this->_connection->getCollection($this->collectionName)->insert([
 				'level' => $message[1],
 				'category' => $message[2],
-				'log_time' => $message[3],
+				'log_time' => time(),
 				'message' => $message[0],
 			]);
 		}
