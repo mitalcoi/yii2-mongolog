@@ -1,0 +1,15 @@
+{
+    "name": "mitalcoi/mongolog",
+    "authors": [
+        {
+            "name": "mitalcoi"
+        }
+    ],
+	"minimum-stability": "dev",
+    "require": {
+       "yiisoft/yii2-mongodb": "*"
+    },
+    "autoload": {
+       "psr-4": {"mitalcoi\\": ""}
+    }
+}
